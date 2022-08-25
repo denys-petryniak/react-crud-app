@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
+import UserTable from "./tables/UserTable";
 
 const App = () => {
+  const usersData = [
+    { id: 1, name: "Denys", username: "dpetryniak" },
+    { id: 2, name: "Vlad", username: "alex" },
+    { id: 3, name: "Lera", username: "kitten" },
+  ];
+
+  const [users, setUsers] = useState(usersData);
+
   return (
     <div className="container">
       <h1>CRUD App with Hooks</h1>
@@ -10,6 +19,7 @@ const App = () => {
         </div>
         <div className="flex-large">
           <h2>View users</h2>
+          <UserTable users={users} />
         </div>
       </div>
     </div>
