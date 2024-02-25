@@ -1,6 +1,14 @@
 # React CRUD App
 
+<img width="650" alt="image" src="https://github.com/denys-petryniak/react-crud-app/assets/16530588/37633037-44a8-4592-b556-497783eb1b4c">
+
+## Explore in StackBlitz
+
+Click the button below to open the project in StackBlitz for preview and experimentation:
+
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/denys-petryniak/react-crud-app)
+
+Feel free to explore the code, make changes, and see the results in real-time!
 
 ## Getting Started with Create React App
 
